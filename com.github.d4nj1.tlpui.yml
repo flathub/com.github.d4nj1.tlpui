@@ -1,7 +1,7 @@
 app-id: com.github.d4nj1.tlpui
 command: tlpui
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 finish-args:
   - --socket=wayland
@@ -47,5 +47,5 @@ modules:
         path: host-exec-wrapper.sh
       - type: git
         url: https://github.com/d4nj1/TLPUI.git
-        tag: tlpui-1.6.0
-        commit: d4b32b7a8ac58011cd77186d930be732b4ef1ffd
+        tag: tlpui-1.6.1
+        commit: e936e33df3a2a11e453b7daea62ba2a14179c6fb
