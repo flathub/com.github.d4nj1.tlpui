@@ -41,7 +41,9 @@ modules:
       - ln -s /app/bin/host-exec-wrapper /app/bin/gksudo
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesu
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesudo
-      - pip3 install --prefix=/app .
+      - pip3 install -U pip
+      - pip3 install poetry poetry-plugin-bundle
+      - poetry bundle venv /app
     sources:
       - type: file
         path: host-exec-wrapper.sh
