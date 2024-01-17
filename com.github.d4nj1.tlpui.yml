@@ -47,5 +47,5 @@ modules:
         path: host-exec-wrapper.sh
       - type: git
         url: https://github.com/d4nj1/TLPUI.git
-        tag: tlpui-1.6.1
-        commit: e936e33df3a2a11e453b7daea62ba2a14179c6fb
+        tag: tlpui-1.7.0
+        commit: 84aedec77ca92ec31252f1db093d66fd4349e9da
