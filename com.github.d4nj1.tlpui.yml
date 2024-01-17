@@ -17,14 +17,7 @@ finish-args:
   # As the above don't work we have to use host permission
   - --filesystem=host:ro
 modules:
-  - name: poetry-core
-    buildsystem: simple
-    build-commands:
-      - pip3 install --prefix=/app .
-    sources:
-      - type: archive
-        url: https://github.com/python-poetry/poetry-core/releases/download/1.8.1/poetry_core-1.8.1.tar.gz
-        sha256: 67a76c671da2a70e55047cddda83566035b701f7e463b32a2abfeac6e2a16376
+  - python3-poetry.yaml
   - name: tlpui
     buildsystem: simple
     build-commands:
