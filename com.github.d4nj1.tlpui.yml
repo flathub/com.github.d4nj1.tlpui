@@ -17,7 +17,8 @@ finish-args:
   # As the above don't work we have to use host permission
   - --filesystem=host:ro
 modules:
-  - generated-poetry-sources.json
+  - python3-pip.yaml
+  - python3-poetry.yaml
   - name: tlpui
     buildsystem: simple
     build-commands:
