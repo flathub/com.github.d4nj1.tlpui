@@ -17,8 +17,9 @@ finish-args:
   # As the above don't work we have to use host permission
   - --filesystem=host:ro
 modules:
-  - python3-pip.yaml
-  - python3-poetry.yaml
+  - python3-pygobject.yaml
+  - python3-pyyaml.yaml
+  - python3-toml.yaml
   - name: tlpui
     buildsystem: simple
     build-commands:
@@ -43,7 +44,7 @@ modules:
       - ln -s /app/bin/host-exec-wrapper /app/bin/gksudo
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesu
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesudo
-      - pip3 install --prefix=/app .
+      - pip3 install --prefix=/app --no-deps .
     sources:
       - type: file
         path: host-exec-wrapper.sh
