@@ -49,11 +49,11 @@ modules:
       - type: file
         path: host-exec-wrapper.sh
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.2/AppImage/com.github.d4nj1.tlpui.appdata.xml
-        sha256: 8974cfb48b562fd07c052ef4f6e0842dc6e644adeb2c7eafe7bcfc4b67cd59fc
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.3/AppImage/com.github.d4nj1.tlpui.appdata.xml
+        sha256: a3599641876eff9c1788e44f3b6f7bdc482ca6353c1949273ae4be81c90f9a06
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.2/tlpui.desktop
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.3/tlpui.desktop
         sha256: b9381fcac28e578b0c744da9c62a500a103b38312e06dfc67a75b600ca27df59
       - type: archive
-        url: https://files.pythonhosted.org/packages/2f/d2/8b9ff5549a02d71fcad4a249d8ffd83354fb0804a07bff15364d28a99ab2/tlp_ui-1.6.2.tar.gz
-        sha256: 5193b3662c96b91bd774094ecb0a302dec292422558e83649ad3302544a11ead
+        url: https://files.pythonhosted.org/packages/6a/7c/787c3fd85bdc5c486ad935c01c8bad31bada29ebc90fa527a2a8652f4430/tlp_ui-1.6.3.tar.gz
+        sha256: 2cb244b2b7a9764fe872b6cb4116e999a2b67cd1fb35fb5157204dbbd8d5d3a1
