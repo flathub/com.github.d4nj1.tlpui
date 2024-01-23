@@ -18,7 +18,6 @@ finish-args:
   - --filesystem=host:ro
 modules:
   - python3-pyyaml.yaml
-  - python3-toml.yaml
   - name: tlpui
     buildsystem: simple
     build-commands:
@@ -49,11 +48,11 @@ modules:
       - type: file
         path: host-exec-wrapper.sh
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.3/AppImage/com.github.d4nj1.tlpui.appdata.xml
-        sha256: a3599641876eff9c1788e44f3b6f7bdc482ca6353c1949273ae4be81c90f9a06
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.4/AppImage/com.github.d4nj1.tlpui.appdata.xml
+        sha256: 9487fd06477bb28337cba92fa6379f45140381569901cb60b670cb18cb947a6e
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.3/tlpui.desktop
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.4/tlpui.desktop
         sha256: b9381fcac28e578b0c744da9c62a500a103b38312e06dfc67a75b600ca27df59
       - type: archive
-        url: https://files.pythonhosted.org/packages/6a/7c/787c3fd85bdc5c486ad935c01c8bad31bada29ebc90fa527a2a8652f4430/tlp_ui-1.6.3.tar.gz
-        sha256: 2cb244b2b7a9764fe872b6cb4116e999a2b67cd1fb35fb5157204dbbd8d5d3a1
+        url: https://files.pythonhosted.org/packages/c5/60/ba7379898abdaa3fccf34b12cc0d7d3cbd1c945d186ecb98f070d0a319a5/tlp_ui-1.6.4.tar.gz
+        sha256: 6db57a072ade23950c6c88f6ef3a79903ab9630f928f63de06f3c5c49817cad9
