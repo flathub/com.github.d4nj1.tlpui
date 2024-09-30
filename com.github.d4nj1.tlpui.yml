@@ -1,7 +1,7 @@
 app-id: com.github.d4nj1.tlpui
 command: tlpui
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '47'
 sdk: org.gnome.Sdk
 finish-args:
   - --socket=wayland
@@ -48,11 +48,11 @@ modules:
       - type: file
         path: host-exec-wrapper.sh
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.5/AppImage/com.github.d4nj1.tlpui.appdata.xml
-        sha256: 69db33400e3758e32cb67b9091e0dcc6f1a69bf86f6d75aa3e9e179ae2003b4d
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.7.1/AppImage/com.github.d4nj1.tlpui.appdata.xml
+        sha256: fc3927b4f8e5abbe1615e5670846da0d72496cba5ef1b84a8b920996534b1ff5
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.6.5/tlpui.desktop
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.7.1/tlpui.desktop
         sha256: b9381fcac28e578b0c744da9c62a500a103b38312e06dfc67a75b600ca27df59
       - type: archive
-        url: https://files.pythonhosted.org/packages/1b/a9/477b8a8cd98ee89fe1eaf5fcd8c5ed5c9e06785e7ab9b6b85bed71d67348/tlp_ui-1.6.5.tar.gz
-        sha256: 36e1e8ed50ba79d44f26b471660f2226abf0050d8f94e5b9e4f7e19fb581e62d
+        url: https://files.pythonhosted.org/packages/77/46/3d21132ab55f53d3bab43164543d41f0268e064501bc80a43f43fca2c7d8/tlp_ui-1.7.1.tar.gz
+        sha256: 97354bf6b7d8e9382189c840f7bc4a10705dfdb401ebf38993f1891accd3fba8
