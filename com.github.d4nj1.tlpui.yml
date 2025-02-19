@@ -48,11 +48,11 @@ modules:
       - type: file
         path: host-exec-wrapper.sh
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.7.1/AppImage/com.github.d4nj1.tlpui.appdata.xml
-        sha256: fc3927b4f8e5abbe1615e5670846da0d72496cba5ef1b84a8b920996534b1ff5
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.8.0/AppImage/com.github.d4nj1.tlpui.appdata.xml
+        sha256: 652b8edb390e1405ef91c683c41eb69af53e57e508d38900e1b7ef605449de2d
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.7.1/tlpui.desktop
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.8.0/tlpui.desktop
         sha256: b9381fcac28e578b0c744da9c62a500a103b38312e06dfc67a75b600ca27df59
       - type: archive
-        url: https://files.pythonhosted.org/packages/77/46/3d21132ab55f53d3bab43164543d41f0268e064501bc80a43f43fca2c7d8/tlp_ui-1.7.1.tar.gz
-        sha256: 97354bf6b7d8e9382189c840f7bc4a10705dfdb401ebf38993f1891accd3fba8
+        url: https://files.pythonhosted.org/packages/4e/70/79b10c7f5092411c30ac3eb881127e8e1fdfef1183b15f1015d4bbbb3e2b/tlp_ui-1.8.0.tar.gz
+        sha256: 129f74f33924f55a41f87fc62f070c3ba1d8a21681344ad07c75fa4fa77deb55
