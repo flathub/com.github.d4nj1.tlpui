@@ -17,6 +17,7 @@ finish-args:
   # As the above don't work we have to use host permission
   - --filesystem=host:ro
 modules:
+  - python3-poetry-core.yaml
   - python3-pyyaml.yaml
   - name: tlpui
     buildsystem: simple
@@ -42,17 +43,16 @@ modules:
       - ln -s /app/bin/host-exec-wrapper /app/bin/gksudo
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesu
       - ln -s /app/bin/host-exec-wrapper /app/bin/kdesudo
-      - rm pyproject.toml
-      - pip3 install --prefix=/app --no-index --no-deps .
+      - pip3 install . --prefix=/app --no-index --no-deps --no-build-isolation
     sources:
       - type: file
         path: host-exec-wrapper.sh
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.8.1/AppImage/com.github.d4nj1.tlpui.appdata.xml
-        sha256: f96d520c699a3abbbe96d93f2dd8711ccc49baebd7a4c5efbb2f190c371e544c
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.9.0/AppImage/com.github.d4nj1.tlpui.appdata.xml
+        sha256: fe738497c5a17a4750d7284e060b4a4fac2a9423b7ab6fca918685e42cbecbaf
       - type: file
-        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.8.1/tlpui.desktop
+        url: https://raw.githubusercontent.com/d4nj1/TLPUI/tlpui-1.9.0/tlpui.desktop
         sha256: cc944a6b19fc2e71a215ebda7541b97f28db715849c54fd648f805f004e1c687
       - type: archive
-        url: https://files.pythonhosted.org/packages/73/8d/e6297612a17cbee62eaff27a4f16f93f04cd6742110afc89bc43f4b4d463/tlp_ui-1.8.1.tar.gz
-        sha256: abc950a7228e81f03aff4ebd7cfbdfb5ca4fe830131984e8399ad37899f99d28
+        url: https://files.pythonhosted.org/packages/39/c3/085a1cf1d1329ccc24d9d68ac3a47ca057c6d362cd500799becca77c7b14/tlp_ui-1.9.0.tar.gz
+        sha256: 6dad2cbedbf99c4dac8642b03377871d77fc69627a420d7c32384afcf4af40ea
